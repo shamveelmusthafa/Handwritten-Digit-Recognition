@@ -1,0 +1,46 @@
+{
+    "best_model": "svm_tuned",
+    "best_accuracy": 98.33,
+    "best_params": {
+        "kernel": "rbf",
+        "C": 50,
+        "gamma": "scale"
+    },
+    "all_models": {
+        "Logistic Regression": {
+            "test_acc": 92.6,
+            "train_time": 89.6,
+            "file": "logistic_regression.pkl"
+        },
+        "K-Nearest Neighbors": {
+            "test_acc": 96.88,
+            "train_time": 15.88,
+            "file": "knn.pkl"
+        },
+        "SVM": {
+            "test_acc": 98.37,
+            "train_time": 198.17,
+            "file": "svm.pkl"
+        },
+        "Random Forest": {
+            "test_acc": 96.9,
+            "train_time": 57.15,
+            "file": "random_forest.pkl"
+        },
+        "MLP Neural Network": {
+            "test_acc": 97.97,
+            "train_time": 81.82,
+            "file": "mlp.pkl"
+        },
+        "SVM Tuned": {
+            "test_acc": 98.33,
+            "train_time": 5034.09,
+            "file": "svm_tuned.pkl"
+        },
+        "MLP Tuned": {
+            "test_acc": 98.05,
+            "train_time": 7363.137938261032,
+            "file": "mlp_tuned.pkl"
+        }
+    }
+}
